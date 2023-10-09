@@ -4,32 +4,23 @@ codecov:
 coverage:
   status:
     project:
-      default: false
-      server:
+      default:
         target: auto
         threshold: 0.5%
-        flags:
-          - server
+
     patch:
-      default: false
-      server:
+      default:
         target: 85%
         threshold: 0%
-        only_pulls: true
+        base: auto
+        branches:
+          - develop
         if_ci_failed: ignore
-        flags:
-          - server
+        only_pulls: true
 
 comment:
-  layout: "diff, flags"
+  layout: "diff, files"
   require_changes: true
 
-flags:
-  server:
-    paths:
-      - ".*\\.py"
-    carryforward: true
-  ui-tests:
-    paths:
-      - ".*\\.js"
-    carryforward: true
+ignore:
+  - "erpnext/demo"
