@@ -1,7 +1,7 @@
-// Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2015, NETMANTHAN. and Contributors
 // License: GNU General Public License v3. See license.txt
 
-frappe.provide("erpnext.company");
+frappe.provide("shopersolutions.company");
 
 frappe.ui.form.on("Company", {
 	onload: function(frm) {
@@ -19,7 +19,7 @@ frappe.ui.form.on("Company", {
 	},
 	setup: function(frm) {
 		frm.__rename_queue = "long";
-		erpnext.company.setup_queries(frm);
+		shopersolutions.company.setup_queries(frm);
 
 		frm.set_query("parent_company", function() {
 			return {
@@ -123,7 +123,7 @@ frappe.ui.form.on("Company", {
 			}
 		}
 
-		erpnext.company.set_chart_of_accounts_options(frm.doc);
+		shopersolutions.company.set_chart_of_accounts_options(frm.doc);
 	},
 
 	make_default_tax_template: function(frm) {
@@ -138,7 +138,7 @@ frappe.ui.form.on("Company", {
 	},
 
 	country: function(frm) {
-		erpnext.company.set_chart_of_accounts_options(frm.doc);
+		shopersolutions.company.set_chart_of_accounts_options(frm.doc);
 	},
 
 	delete_company_transactions: function(frm) {
@@ -178,7 +178,7 @@ frappe.ui.form.on("Company", {
 });
 
 
-erpnext.company.set_chart_of_accounts_options = function(doc) {
+shopersolutions.company.set_chart_of_accounts_options = function(doc) {
 	var selected_value = doc.chart_of_accounts;
 	if(doc.country) {
 		return frappe.call({
@@ -198,7 +198,7 @@ erpnext.company.set_chart_of_accounts_options = function(doc) {
 	}
 }
 
-erpnext.company.setup_queries = function(frm) {
+shopersolutions.company.setup_queries = function(frm) {
 	$.each([
 		["default_bank_account", {"account_type": "Bank"}],
 		["default_cash_account", {"account_type": "Cash"}],
@@ -229,7 +229,7 @@ erpnext.company.setup_queries = function(frm) {
 		["unrealized_profit_loss_account", {"root_type": ["in", ["Liability", "Asset"]]}],
 		["default_provisional_account", {"root_type": ["in", ["Liability", "Asset"]]}]
 	], function(i, v) {
-		erpnext.company.set_custom_query(frm, v);
+		shopersolutions.company.set_custom_query(frm, v);
 	});
 
 	if (frm.doc.enable_perpetual_inventory) {
@@ -244,12 +244,12 @@ erpnext.company.setup_queries = function(frm) {
 				{"root_type": "Liability", "account_type": "Service Received But Not Billed"}],
 
 		], function(i, v) {
-			erpnext.company.set_custom_query(frm, v);
+			shopersolutions.company.set_custom_query(frm, v);
 		});
 	}
 }
 
-erpnext.company.set_custom_query = function(frm, v) {
+shopersolutions.company.set_custom_query = function(frm, v) {
 	var filters = {
 		"company": frm.doc.name,
 		"is_group": 0

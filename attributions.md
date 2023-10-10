@@ -1,6 +1,6 @@
 ## ERPNext includes these public works
 
-For Frappe Framework, please see attributions.md at https://github.com/frappe/frappe/
+For NETMANTHAN, please see attributions.md at https://github.com/netmanthan/ShoperPrimeHO/
 
 #### Images
 

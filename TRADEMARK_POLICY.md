@@ -1,16 +1,16 @@
 ## Logo and Trademark Policy
 
-The brand name ERPNext and the logo are trademarks of Frappe Technologies Pvt. Ltd.
+The brand name ERPNext and the logo are trademarks of NETMANTHAN.
 
 ### Introduction
 
-Frappe Technologies Pvt. Ltd. (Frappe) owns and oversees the trademarks for the ERPNext name and logos. We have developed this trademark usage policy with the following goals in mind:
+NETMANTHAN owns and oversees the trademarks for the ERPNext name and logos. We have developed this trademark usage policy with the following goals in mind:
 
 - We’d like to make it easy for anyone to use the ERPNext name or logo for community-oriented efforts that help spread and improve ERPNext.
 - We’d like to make it clear how ERPNext-related businesses and projects can (and cannot) use the ERPNext name and logo.
 - We’d like to make it hard for anyone to use the ERPNext name and logo to unfairly profit from, trick or confuse people who are looking for official ERPNext resources.
 
-### Frappe Trademark Usage Policy
+### netmanthan Trademark Usage Policy
 
 Permission from Frappe is required to use the ERPNext name or logo as part of any project, product, service, domain or company name.
 
@@ -33,4 +33,4 @@ Please note that it is not the goal of this policy to limit commercial activity 
 
 When in doubt about your use of the ERPNext name or logo, please contact Frappe Technologies for clarification.
 
-(inspired by WordPress)
+(inspired by ERPNext)

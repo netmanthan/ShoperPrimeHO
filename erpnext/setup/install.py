@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, NETMANTHAN. and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -157,19 +157,19 @@ def add_standard_navbar_items():
 		{
 			"item_label": "Documentation",
 			"item_type": "Route",
-			"route": "https://docs.erpnext.com/docs/v14/user/manual/en/introduction",
+			"route": "https://docs.shopersolutions.com/docs/v14/user/manual/en/introduction",
 			"is_standard": 1,
 		},
 		{
 			"item_label": "User Forum",
 			"item_type": "Route",
-			"route": "https://discuss.frappe.io",
+			"route": "https://discuss.shopersolutions.com",
 			"is_standard": 1,
 		},
 		{
 			"item_label": "Report an Issue",
 			"item_type": "Route",
-			"route": "https://github.com/frappe/erpnext/issues",
+			"route": "https://github.com/netmanthan/ShoperPrimeHO/issues",
 			"is_standard": 1,
 		},
 	]

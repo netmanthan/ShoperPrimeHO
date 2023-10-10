@@ -10,7 +10,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.js +72,Please
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +89,Annealing,Žíhání
 DocType: Item,Customer Items,Zákazník položky
 apps/erpnext/erpnext/accounts/doctype/account/account.py +41,Account {0}: Parent account {1} can not be a ledger,Účet {0}: Nadřazený účet {1} nemůže být hlavní kniha
-DocType: Item,Publish Item to hub.erpnext.com,Publikování položku do hub.erpnext.com
+DocType: Item,Publish Item to hub.shopersolutions.com,Publikování položku do hub.shopersolutions.com
 apps/erpnext/erpnext/config/setup.py +63,Email Notifications,E-mailová upozornění
 DocType: Item,Default Unit of Measure,Výchozí Měrná jednotka
 DocType: SMS Center,All Sales Partner Contact,Všechny Partneři Kontakt
@@ -50,7 +50,7 @@ DocType: SMS Center,All Supplier Contact,Vše Dodavatel Kontakt
 DocType: Quality Inspection Reading,Parameter,Parametr
 apps/erpnext/erpnext/shopping_cart/doctype/shopping_cart_settings/shopping_cart_settings.py +52,Please specify a Price List which is valid for Territory,"Uveďte prosím ceníku, který je platný pro území"
 apps/erpnext/erpnext/projects/doctype/project/project.py +35,Expected End Date can not be less than Expected Start Date,"Očekávané Datum ukončení nemůže být nižší, než se očekávalo data zahájení"
-apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +235,Do really want to unstop production order:,Opravdu chcete uvolnit výrobní zakázky: 
+apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +235,Do really want to unstop production order:,Opravdu chcete uvolnit výrobní zakázky:
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +190,New Leave Application,New Leave Application
 apps/erpnext/erpnext/setup/page/setup_wizard/install_fixtures.py +129,Bank Draft,Bank Návrh
 DocType: Features Setup,1. To maintain the customer wise item code and to make them searchable based on their code use this option,"1.Chcete-li zachovat zákazníkovo produktové číslo a také podle něj vyhledávat, použijte tuto možnost"
@@ -676,7 +676,7 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 
 #### Description of Columns
 
-1. Calculation Type: 
+1. Calculation Type:
     - This can be on **Net Total** (that is the sum of basic amount).
     - **On Previous Row Total / Amount** (for cumulative taxes or charges). If you select this option, the tax will be applied as a percentage of the previous row (in the tax table) amount or total.
     - **Actual** (as mentioned).
@@ -687,19 +687,19 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 6. Amount: Tax amount.
 7. Total: Cumulative total to this point.
 8. Enter Row: If based on ""Previous Row Total"" you can select the row number which will be taken as a base for this calculation (default is the previous row).
-9. Is this Tax included in Basic Rate?: If you check this, it means that this tax will not be shown below the item table, but will be included in the Basic Rate in your main item table. This is useful where you want give a flat price (inclusive of all taxes) price to customers.","Standardní daň šablona, ​​která může být použita pro všechny prodejních transakcí. Tato šablona může obsahovat seznam daňových hlav a také další náklady / příjmy hlavy jako ""doprava"", ""pojištění"", ""manipulace"" atd. 
+9. Is this Tax included in Basic Rate?: If you check this, it means that this tax will not be shown below the item table, but will be included in the Basic Rate in your main item table. This is useful where you want give a flat price (inclusive of all taxes) price to customers.","Standardní daň šablona, ​​která může být použita pro všechny prodejních transakcí. Tato šablona může obsahovat seznam daňových hlav a také další náklady / příjmy hlavy jako ""doprava"", ""pojištění"", ""manipulace"" atd.
 
- #### Poznámka: 
+ #### Poznámka:
 
  daňovou sazbu, vy definovat zde bude základní sazba daně pro všechny ** položky **. Pokud jsou položky ** **, které mají různé ceny, musí být přidány v ** Položka daních ** stůl v ** položky ** mistra.
 
- #### Popis sloupců 
+ #### Popis sloupců
 
- 1. Výpočet Type: 
+ 1. Výpočet Type:
  - To může být na ** Čistý Total ** (což je součet základní částky).
  - ** Na předchozí řady Total / Částka ** (pro kumulativní daní a poplatků). Zvolíte-li tuto možnost, bude daň se použije jako procento z předchozí řady (v daňové tabulky) množství nebo celkem.
  - ** Aktuální ** (jak je uvedeno).
- 2. Účet Hlava: kniha účtu, pod kterým se bude tato daň rezervovat 
+ 2. Účet Hlava: kniha účtu, pod kterým se bude tato daň rezervovat
  3. Nákladové středisko: V případě, že daň / poplatek je příjmem (jako poštovné) nebo nákladů je třeba rezervovat na nákladové středisko.
  4. Popis: Popis daně (které budou vytištěny v faktur / uvozovek).
  5. Rate: Sazba daně.
@@ -873,7 +873,7 @@ DocType: Purchase Invoice,Get Advances Paid,Získejte zaplacené zálohy
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.js +360,Attach Your Picture,Připojit svůj obrázek
 DocType: Journal Entry,Total Amount in Words,Celková částka slovy
 DocType: Workflow State,Stop,Stop
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"Došlo k chybě. Jedním z důvodů by mohlo být pravděpodobné, že jste uložili formulář. Obraťte se prosím na support@erpnext.com Pokud problém přetrvává."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@shopersolutions.com if the problem persists.,"Došlo k chybě. Jedním z důvodů by mohlo být pravděpodobné, že jste uložili formulář. Obraťte se prosím na support@shopersolutions.com Pokud problém přetrvává."
 DocType: Purchase Order,% of materials billed against this Purchase Order.,% Materiálů fakturovaných proti této objednávce.
 apps/erpnext/erpnext/controllers/selling_controller.py +155,Order Type must be one of {0},Typ objednávky musí být jedním z {0}
 DocType: Lead,Next Contact Date,Další Kontakt Datum
@@ -908,13 +908,13 @@ DocType: Project,Internal,Interní
 DocType: Task,Urgent,Naléhavý
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +97,Please specify a valid Row ID for row {0} in table {1},Zadejte prosím platný řádek ID řádku tabulky {0} {1}
 apps/erpnext/erpnext/projects/doctype/time_log/time_log.py +76,This Time Log conflicts with {0} for {1},To je v rozporu Time Log s {0} na {1}
-DocType: Sales BOM,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**. 
+DocType: Sales BOM,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**.
 
 The package **Item** will have ""Is Stock Item"" as ""No"" and ""Is Sales Item"" as ""Yes"".
 
 For Example: If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Sales BOM Item.
 
-Note: BOM = Bill of Materials","Souhrnný skupina ** položek ** do jiné položky ** **. To je užitečné, pokud svazování některé položky ** ** do balíčku a budete udržovat zásoby balených ** položky ** a ne součet ** položky **. 
+Note: BOM = Bill of Materials","Souhrnný skupina ** položek ** do jiné položky ** **. To je užitečné, pokud svazování některé položky ** ** do balíčku a budete udržovat zásoby balených ** položky ** a ne součet ** položky **.
 
  Balíček ** položky ** bude mít ""je skladem"" jako ""No"" a ""Je Sales Item"" jako ""Yes"".
 
@@ -2015,7 +2015,7 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 
 #### Description of Columns
 
-1. Calculation Type: 
+1. Calculation Type:
     - This can be on **Net Total** (that is the sum of basic amount).
     - **On Previous Row Total / Amount** (for cumulative taxes or charges). If you select this option, the tax will be applied as a percentage of the previous row (in the tax table) amount or total.
     - **Actual** (as mentioned).
@@ -2027,19 +2027,19 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 7. Total: Cumulative total to this point.
 8. Enter Row: If based on ""Previous Row Total"" you can select the row number which will be taken as a base for this calculation (default is the previous row).
 9. Consider Tax or Charge for: In this section you can specify if the tax / charge is only for valuation (not a part of total) or only for total (does not add value to the item) or for both.
-10. Add or Deduct: Whether you want to add or deduct the tax.","Standardní daň šablona, ​​která může být použita pro všechny nákupních transakcí. Tato šablona může obsahovat seznam daňových hlav a také ostatní náklady hlavy jako ""doprava"", ""pojištění"", ""manipulace"" atd. 
+10. Add or Deduct: Whether you want to add or deduct the tax.","Standardní daň šablona, ​​která může být použita pro všechny nákupních transakcí. Tato šablona může obsahovat seznam daňových hlav a také ostatní náklady hlavy jako ""doprava"", ""pojištění"", ""manipulace"" atd.
 
- #### Poznámka: 
+ #### Poznámka:
 
  daňovou sazbu, můžete definovat zde bude základní sazba daně pro všechny ** položky **. Pokud jsou položky ** **, které mají různé ceny, musí být přidány v ** Položka daních ** stůl v ** položky ** mistra.
 
- #### Popis sloupců 
+ #### Popis sloupců
 
- 1. Výpočet Type: 
+ 1. Výpočet Type:
  - To může být na ** Čistý Total ** (což je součet základní částky).
  - ** Na předchozí řady Total / Částka ** (pro kumulativní daní a poplatků). Zvolíte-li tuto možnost, bude daň se použije jako procento z předchozí řady (v daňové tabulky) množství nebo celkem.
  - ** Aktuální ** (jak je uvedeno).
- 2. Účet Hlava: kniha účtu, pod kterým se bude tato daň rezervovat 
+ 2. Účet Hlava: kniha účtu, pod kterým se bude tato daň rezervovat
  3. Nákladové středisko: V případě, že daň / poplatek je příjmem (jako poštovné) nebo nákladů je třeba rezervovat na nákladové středisko.
  4. Popis: Popis daně (které budou vytištěny v faktur / uvozovek).
  5. Rate: Sazba daně.
@@ -2217,7 +2217,7 @@ Examples:
 1. Ways of addressing disputes, indemnity, liability, etc.
 1. Address and Contact of your Company.","Všeobecné obchodní podmínky, které mohou být přidány do prodejů a nákupů.
 
- Příklady: 
+ Příklady:
 
  1. Platnost nabídky.
  1. Platební podmínky (v předstihu, na úvěr, část zálohy atd.)
@@ -2226,7 +2226,7 @@ Examples:
  1. Záruka, pokud existuje.
  1. Vrátí zásady.
  1. Podmínky přepravy, v případě potřeby.
- 1. Způsoby řešení sporů, náhrady škody, odpovědnosti za škodu, atd 
+ 1. Způsoby řešení sporů, náhrady škody, odpovědnosti za škodu, atd
  1. Adresa a kontakt na vaši společnost."
 DocType: Attendance,Leave Type,Leave Type
 apps/erpnext/erpnext/controllers/stock_controller.py +171,Expense / Difference account ({0}) must be a 'Profit or Loss' account,"Náklady / Rozdíl účtu ({0}), musí být ""zisk nebo ztráta"" účet"
@@ -2489,7 +2489,7 @@ apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standar
 apps/erpnext/erpnext/hr/doctype/salary_structure/salary_structure.js +15,Make Salary Slip,Proveďte výplatní pásce
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +83,Unstop,Uvolnit
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +175,Secured Loans,Zajištěné úvěry
-apps/erpnext/erpnext/utilities/doctype/rename_tool/rename_tool.py +49,Ignored:,Ignorovat: 
+apps/erpnext/erpnext/utilities/doctype/rename_tool/rename_tool.py +49,Ignored:,Ignorovat:
 apps/erpnext/erpnext/shopping_cart/__init__.py +68,{0} cannot be purchased using Shopping Cart,{0} není možné zakoupit pomocí Nákupní košík
 apps/erpnext/erpnext/setup/page/setup_wizard/data/sample_home_page.html +3,Awesome Products,Skvělé produkty
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +189,Opening Balance Equity,Počáteční stav Equity
@@ -3094,7 +3094,7 @@ apps/erpnext/erpnext/selling/report/territory_target_variance_item_group_wise/te
 DocType: Accounts Settings,"If enabled, the system will post accounting entries for inventory automatically.","Pokud je povoleno, bude systém odesílat účetní položky k zásobám automaticky."
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/industry_type.py +14,Brokerage,Makléřská
 DocType: Production Order Operation,"in Minutes
-Updated via 'Time Log'","v minutách 
+Updated via 'Time Log'","v minutách
  aktualizovat přes ""Time Log"""
 DocType: Customer,From Lead,Od Leadu
 apps/erpnext/erpnext/config/manufacturing.py +19,Orders released for production.,Objednávky uvolněna pro výrobu.
@@ -3404,17 +3404,17 @@ DocType: Address Template,"<h4>Default Template</h4>
 {% if phone %}Phone: {{ phone }}&lt;br&gt;{% endif -%}
 {% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}
 {% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}
-</code></pre>","<H4> Default Template </ h4> 
- <p> <a Používá href=""http://jinja.pocoo.org/docs/templates/""> Jinja šablon </a> a všechna pole Adresa ( včetně Custom Fields-li nějaké) budou k dispozici </ p> 
- <pre> <code> {{address_line1}} & lt; br & gt; 
+</code></pre>","<H4> Default Template </ h4>
+ <p> <a Používá href=""http://jinja.pocoo.org/docs/templates/""> Jinja šablon </a> a všechna pole Adresa ( včetně Custom Fields-li nějaké) budou k dispozici </ p>
+ <pre> <code> {{address_line1}} & lt; br & gt;
  {%, pokud address_line2%} {{address_line2}} & lt; br & gt; { % endif -%} {
- {}} city & lt; br & gt; 
+ {}} city & lt; br & gt;
  {%, pokud stav%} {{}} state & lt; br & gt; {% endif -%} {
-% v případě, PSC%} PIN: {{PSC}} & lt; br & gt; {% endif -%} 
- {{country}} & lt; br & gt; 
- {%, pokud telefon%} Telefon: {{tel}} & lt; br & gt; { % endif -%} 
- {% v případě, fax%} Fax: {{fax}} & lt; br & gt; {% endif -%} 
- {%, pokud email_id%} E-mail: {{email_id}} & lt; br & gt ; {% endif -%} 
+% v případě, PSC%} PIN: {{PSC}} & lt; br & gt; {% endif -%}
+ {{country}} & lt; br & gt;
+ {%, pokud telefon%} Telefon: {{tel}} & lt; br & gt; { % endif -%}
+ {% v případě, fax%} Fax: {{fax}} & lt; br & gt; {% endif -%}
+ {%, pokud email_id%} E-mail: {{email_id}} & lt; br & gt ; {% endif -%}
  </ code> </ pre>"
 DocType: Salary Slip Deduction,Default Amount,Výchozí částka
 apps/erpnext/erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py +84,Warehouse not found in the system,Sklad nebyl nalezen v systému
@@ -3603,7 +3603,7 @@ apps/erpnext/erpnext/crm/doctype/newsletter_list/newsletter_list.js +40,New News
 apps/erpnext/erpnext/support/doctype/maintenance_schedule/maintenance_schedule.py +167,Start date should be less than end date for Item {0},Datum zahájení by měla být menší než konečné datum pro bod {0}
 apps/erpnext/erpnext/stock/doctype/item/item.js +46,Show Balance,Show Balance
 DocType: Item,"Example: ABCD.#####
-If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","Příklad:. ABCD ##### 
+If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","Příklad:. ABCD #####
  Je-li série nastavuje a pořadové číslo není uvedeno v transakcích, bude vytvořen poté automaticky sériové číslo na základě této série. Pokud chcete vždy výslovně uvést pořadová čísla pro tuto položku. ponechte prázdné."
 DocType: Upload Attendance,Upload Attendance,Nahrát Návštěvnost
 apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.js +143,BOM and Manufacturing Quantity are required,BOM a výroba množství jsou povinné

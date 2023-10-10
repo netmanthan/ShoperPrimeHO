@@ -13,7 +13,7 @@ DocType: Project,Costing and Billing,成本核算和計費
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},預付帳戶貨幣應與公司貨幣{0}相同
 DocType: QuickBooks Migrator,Token Endpoint,令牌端點
 apps/erpnext/erpnext/accounts/doctype/account/account.py +55,Account {0}: Parent account {1} can not be a ledger,帳戶{0}：父帳戶{1}不能是總帳
-DocType: Item,Publish Item to hub.erpnext.com,發布項目hub.erpnext.com
+DocType: Item,Publish Item to hub.shopersolutions.com,發布項目hub.shopersolutions.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +270,Cannot find active Leave Period,找不到有效的休假期
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,評估
 DocType: Item,Default Unit of Measure,預設的計量單位
@@ -1106,7 +1106,7 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 
 #### Description of Columns
 
-1. Calculation Type: 
+1. Calculation Type:
     - This can be on **Net Total** (that is the sum of basic amount).
     - **On Previous Row Total / Amount** (for cumulative taxes or charges). If you select this option, the tax will be applied as a percentage of the previous row (in the tax table) amount or total.
     - **Actual** (as mentioned).
@@ -1458,7 +1458,7 @@ DocType: Item,Automatically Create New Batch,自動創建新批
 DocType: Student Admission,Admission Start Date,入學開始日期
 DocType: Journal Entry,Total Amount in Words,總金額大寫
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,新員工
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,有一個錯誤。一個可能的原因可能是因為您沒有保存的形式。請聯繫support@erpnext.com如果問題仍然存在。
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@shopersolutions.com if the problem persists.,有一個錯誤。一個可能的原因可能是因為您沒有保存的形式。請聯繫support@shopersolutions.com如果問題仍然存在。
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,我的購物車
 apps/erpnext/erpnext/controllers/selling_controller.py +142,Order Type must be one of {0},訂單類型必須是一個{0}
 DocType: Lead,Next Contact Date,下次聯絡日期
@@ -3316,7 +3316,7 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 
 #### Description of Columns
 
-1. Calculation Type: 
+1. Calculation Type:
     - This can be on **Net Total** (that is the sum of basic amount).
     - **On Previous Row Total / Amount** (for cumulative taxes or charges). If you select this option, the tax will be applied as a percentage of the previous row (in the tax table) amount or total.
     - **Actual** (as mentioned).
@@ -4331,11 +4331,11 @@ apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.py +38,Atleast o
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.js +308,Select an employee to get the employee advance.,選擇一名員工以推進員工。
 apps/erpnext/erpnext/healthcare/doctype/patient/patient.js +56,Please select a valid Date,請選擇一個有效的日期
 apps/erpnext/erpnext/public/js/setup_wizard.js +36,Select the nature of your business.,選擇您的業務的性質。
-DocType: Lab Test Template,"Single for results which require only a single input, result UOM and normal value 
+DocType: Lab Test Template,"Single for results which require only a single input, result UOM and normal value
 <br>
 Compound for results which require multiple input fields with corresponding event names, result UOMs and normal values
 <br>
-Descriptive for tests which have multiple result components and corresponding result entry fields. 
+Descriptive for tests which have multiple result components and corresponding result entry fields.
 <br>
 Grouped for test templates which are a group of other test templates.
 <br>
@@ -5517,7 +5517,7 @@ DocType: Subscription Plan Detail,Plan,計劃
 apps/erpnext/erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py +34,Bank Statement balance as per General Ledger,銀行對賬單餘額按總帳
 DocType: Job Applicant,Applicant Name,申請人名稱
 DocType: Authorization Rule,Customer / Item Name,客戶／品項名稱
-DocType: Product Bundle,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**. 
+DocType: Product Bundle,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**.
 
 The package **Item** will have ""Is Stock Item"" as ""No"" and ""Is Sales Item"" as ""Yes"".
 
@@ -6012,7 +6012,7 @@ apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.py +82,Year start 
 apps/erpnext/erpnext/selling/doctype/customer/customer.py +137,Please mention the Lead Name in Lead {0},請提及潛在客戶名稱{0}
 apps/erpnext/erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py +156,Start date should be less than end date for Item {0},項目{0}的開始日期必須小於結束日期
 DocType: Item,"Example: ABCD.#####
-If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","例如：ABCD ##### 
+If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","例如：ABCD #####
 如果串聯設定並且序列號沒有在交易中提到，然後自動序列號將在此基礎上創建的系列。如果你總是想明確提到序號為這個項目。留空。"
 DocType: Upload Attendance,Upload Attendance,上傳考勤
 apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.js +648,BOM and Manufacturing Quantity are required,BOM和生產量是必需的
