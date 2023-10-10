@@ -1,4 +1,4 @@
-# Copyright (c) 2019, NETMANTHAN. and Contributors
+# Copyright (c) 2019, ShoperPrime Solutions and Contributors
 # See license.txt
 
 import unittest

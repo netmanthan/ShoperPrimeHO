@@ -1,4 +1,4 @@
-# Copyright (c) 2022, NETMANTHAN. and Contributors
+# Copyright (c) 2022, ShoperPrime Solutions and Contributors
 # License: GNU General Public License v3. See license.txt
 
 from typing import List, Optional, Tuple

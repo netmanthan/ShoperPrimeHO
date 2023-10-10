@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN. and contributors
+# Copyright (c) 2021, ShoperPrime Solutions and contributors
 # License: GNU GPL v3. See LICENSE
 
 import json

@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN. and Contributors
+// Copyright (c) 2015, ShoperPrime Solutions and Contributors
 // License: GNU General Public License v3. See license.txt
 
 cur_frm.cscript.tax_table = "Purchase Taxes and Charges";

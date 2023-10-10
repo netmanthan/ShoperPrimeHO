@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN. and Contributors
+// Copyright (c) 2015, ShoperPrime Solutions and Contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide('erpnext');
@@ -17,7 +17,7 @@ $.extend(frappe.breadcrumbs.preferred, {
 });
 
 $.extend(frappe.breadcrumbs.module_map, {
-	'ShoperPrime HO Integrations': 'Integrations',
+	'ERPNext Integrations': 'Integrations',
 	'Geo': 'Settings',
 	'Portal': 'Website',
 	'Utilities': 'Settings',

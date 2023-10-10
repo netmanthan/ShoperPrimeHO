@@ -1,16 +1,16 @@
 ## Logo and Trademark Policy
 
-The brand name ShoperPrime HO and the logo are trademarks of NETMANTHAN.
+The brand name ShoperPrime HO and the logo are trademarks of ShoperPrime Solutions
 
 ### Introduction
 
-NETMANTHAN owns and oversees the trademarks for the ShoperPrime HO name and logos. We have developed this trademark usage policy with the following goals in mind:
+ShoperPrime Solutions owns and oversees the trademarks for the ShoperPrime HO name and logos. We have developed this trademark usage policy with the following goals in mind:
 
 - We’d like to make it easy for anyone to use the ShoperPrime HO name or logo for community-oriented efforts that help spread and improve ShoperPrime HO.
 - We’d like to make it clear how ShoperPrime HO-related businesses and projects can (and cannot) use the ShoperPrime HO name and logo.
 - We’d like to make it hard for anyone to use the ShoperPrime HO name and logo to unfairly profit from, trick or confuse people who are looking for official ShoperPrime HO resources.
 
-### NETMANTHAN Trademark Usage Policy
+### Frappe Trademark Usage Policy
 
 Permission from Frappe is required to use the ShoperPrime HO name or logo as part of any project, product, service, domain or company name.
 

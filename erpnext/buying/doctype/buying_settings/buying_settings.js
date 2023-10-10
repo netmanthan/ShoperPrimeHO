@@ -1,4 +1,4 @@
-// Copyright (c) 2019, NETMANTHAN. and contributors
+// Copyright (c) 2019, ShoperPrime Solutions and contributors
 // For license information, please see license.txt
 
 frappe.ui.form.on('Buying Settings', {
@@ -21,11 +21,11 @@ frappe.tour['Buying Settings'] = [
 	{
 		fieldname: "po_required",
 		title: "Purchase Order Required for Purchase Invoice & Receipt Creation",
-		description: __("If this option is configured 'Yes', ShoperPrime HO will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master.")
+		description: __("If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master.")
 	},
 	{
 		fieldname: "pr_required",
 		title: "Purchase Receipt Required for Purchase Invoice Creation",
-		description: __("If this option is configured 'Yes', ShoperPrime HO will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master.")
+		description: __("If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master.")
 	}
 ];

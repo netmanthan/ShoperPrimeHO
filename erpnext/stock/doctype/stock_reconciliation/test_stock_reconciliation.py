@@ -1,7 +1,7 @@
-# Copyright (c) 2015, NETMANTHAN. and Contributors
+# Copyright (c) 2015, ShoperPrime Solutions and Contributors
 # License: GNU General Public License v3. See license.txt
 
-# ShoperPrime HO - web based ERP (http://shopersolutions.com)
+# ERPNext - web based ERP (http://shopersolutions.com)
 # For license information, please see license.txt
 
 

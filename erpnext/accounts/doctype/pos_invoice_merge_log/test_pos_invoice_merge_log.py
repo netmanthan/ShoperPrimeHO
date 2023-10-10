@@ -1,4 +1,4 @@
-# Copyright (c) 2020, NETMANTHAN. and Contributors
+# Copyright (c) 2020, ShoperPrime Solutions and Contributors
 # See license.txt
 
 import json

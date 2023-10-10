@@ -10,7 +10,7 @@
  "icon": "integration",
  "idx": 0,
  "is_hidden": 0,
- "label": "ShoperPrime HO Integrations",
+ "label": "ERPNext Integrations",
  "links": [
   {
    "hidden": 0,
@@ -254,8 +254,8 @@
  ],
  "modified": "2023-05-24 14:47:25.984717",
  "modified_by": "Administrator",
- "module": "ShoperPrime HO Integrations",
- "name": "ShoperPrime HO Integrations",
+ "module": "ERPNext Integrations",
+ "name": "ERPNext Integrations",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -265,5 +265,5 @@
  "roles": [],
  "sequence_id": 21.0,
  "shortcuts": [],
- "title": "ShoperPrime HO Integrations"
+ "title": "ERPNext Integrations"
 }

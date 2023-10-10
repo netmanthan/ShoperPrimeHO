@@ -1,4 +1,4 @@
-# Copyright (c) 2013, NETMANTHAN. and contributors
+# Copyright (c) 2013, ShoperPrime Solutions and contributors
 # License: MIT. See LICENSE
 
 import frappe

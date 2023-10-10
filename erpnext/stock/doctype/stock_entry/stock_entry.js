@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN. and Contributors // License: GNU General Public License v3. See license.txt
+// Copyright (c) 2015, ShoperPrime Solutions and Contributors // License: GNU General Public License v3. See license.txt
 
 frappe.provide("erpnext.stock");
 frappe.provide("erpnext.accounts.dimensions");

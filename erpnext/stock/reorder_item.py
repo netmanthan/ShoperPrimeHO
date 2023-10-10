@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN. and Contributors
+# Copyright (c) 2015, ShoperPrime Solutions and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -241,7 +241,7 @@ def send_email_notification(mr_list):
 
 
 def notify_errors(exceptions_list):
-	subject = _("[Important] [ShoperPrime HO] Auto Reorder Errors")
+	subject = _("[Important] [ERPNext] Auto Reorder Errors")
 	content = (
 		_("Dear System Manager,")
 		+ "<br>"

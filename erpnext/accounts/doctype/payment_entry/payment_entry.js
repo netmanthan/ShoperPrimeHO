@@ -1,4 +1,4 @@
-// Copyright (c) 2016, NETMANTHAN. and contributors
+// Copyright (c) 2016, ShoperPrime Solutions and contributors
 // For license information, please see license.txt
 {% include "erpnext/public/js/controllers/accounts.js" %}
 frappe.provide("erpnext.accounts.dimensions");

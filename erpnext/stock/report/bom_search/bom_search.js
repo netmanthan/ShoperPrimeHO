@@ -1,4 +1,4 @@
-// Copyright (c) 2013, NETMANTHAN. and Contributors and contributors
+// Copyright (c) 2013, ShoperPrime Solutions and Contributors and contributors
 // For license information, please see license.txt
 
 frappe.query_reports["BOM Search"] = {

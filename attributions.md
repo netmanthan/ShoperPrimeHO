@@ -1,6 +1,6 @@
-## ShoperPrime HO includes these public works
+## ERPNext includes these public works
 
-For NETMANTHAN, please see attributions.md at https://github.com/netmanthan/ShoperPrimeHO/
+For ShoperPrime Framework, please see attributions.md at https://github.com/netmanthan/shoperframeworks/
 
 #### Images
 

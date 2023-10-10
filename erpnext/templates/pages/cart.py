@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN. and Contributors
+# Copyright (c) 2021, ShoperPrime Solutions and Contributors
 # License: GNU General Public License v3. See license.txt
 
 no_cache = 1

@@ -1,5 +1,5 @@
-# ShoperPrime HO - web based ERP (http://shopersolutions.com)
-# Copyright (C) 2012 Frappe Technologies Pvt Ltd
+# ERPNext - web based ERP (http://shopersolutions.com)
+# Copyright (C) 2012 ShoperPrimeSolutions
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -16,5 +16,5 @@
 
 # default settings that can be made for a user.
 
-product_name = "ShoperPrime HO"
+product_name = "ERPNext"
 user_defaults = {"Company": "company", "Territory": "territory"}

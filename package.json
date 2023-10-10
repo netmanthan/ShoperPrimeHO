@@ -1,12 +1,12 @@
 {
   "name": "erpnext",
-  "description": "Open Source ERP System powered by the NETMANTHAN",
+  "description": "Open Source ERP System powered by the ShoperPrime Framework",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/netmanthan/ShoperPrimeHO.git"
   },
   "homepage": "https://shopersolutions.com",
-  "author": "NETMANTHAN.",
+  "author": "ShoperPrime Solutions",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/netmanthan/ShoperPrimeHO/issues"

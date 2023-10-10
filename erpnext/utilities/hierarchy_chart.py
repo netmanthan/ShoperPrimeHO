@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN. and Contributors
+# Copyright (c) 2021, ShoperPrime Solutions and Contributors
 # MIT License. See license.txt
 
 

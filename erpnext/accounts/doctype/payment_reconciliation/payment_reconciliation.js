@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN. and Contributors
+// Copyright (c) 2015, ShoperPrime Solutions and Contributors
 // For license information, please see license.txt
 
 frappe.provide("erpnext.accounts");

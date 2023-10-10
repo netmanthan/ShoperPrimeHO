@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN. and Contributors
+# Copyright (c) 2015, ShoperPrime Solutions and Contributors
 # GPL v3 License. See license.txt
 
 import click

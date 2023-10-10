@@ -1,4 +1,4 @@
-# Copyright (c) 2022, NETMANTHAN. and Contributors
+# Copyright (c) 2022, ShoperPrime Solutions and Contributors
 # License: MIT. See LICENSE
 
 from erpnext.setup.install import setup_log_settings

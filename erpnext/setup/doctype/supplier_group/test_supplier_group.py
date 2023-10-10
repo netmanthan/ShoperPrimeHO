@@ -1,4 +1,4 @@
-# Copyright (c) 2018, NETMANTHAN. and Contributors
+# Copyright (c) 2018, ShoperPrime Solutions and Contributors
 # See license.txt
 
 import frappe

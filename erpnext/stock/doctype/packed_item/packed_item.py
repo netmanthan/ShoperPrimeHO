@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN. and Contributors
+# Copyright (c) 2015, ShoperPrime Solutions and Contributors
 # MIT License. See license.txt
 
 # For license information, please see license.txt

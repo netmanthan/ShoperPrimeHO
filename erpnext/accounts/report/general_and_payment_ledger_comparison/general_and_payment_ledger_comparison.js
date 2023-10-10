@@ -1,4 +1,4 @@
-// Copyright (c) 2023, NETMANTHAN. and contributors
+// Copyright (c) 2023, ShoperPrime Solutions and contributors
 // For license information, please see license.txt
 
 function get_filters() {

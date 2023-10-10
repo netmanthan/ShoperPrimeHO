@@ -1,4 +1,4 @@
-// Copyright (c) 2019, NETMANTHAN. and Contributors
+// Copyright (c) 2019, ShoperPrime Solutions and Contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide("erpnext");

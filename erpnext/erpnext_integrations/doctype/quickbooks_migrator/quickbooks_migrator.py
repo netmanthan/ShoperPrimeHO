@@ -1,4 +1,4 @@
-# Copyright (c) 2018, NETMANTHAN. and contributors
+# Copyright (c) 2018, ShoperPrime Solutions and contributors
 # For license information, please see license.txt
 
 
@@ -44,7 +44,7 @@ class QuickBooksMigrator(Document):
 
 	def on_update(self):
 		if self.company:
-			# We need a Cost Center corresponding to the selected ShoperPrime Head Office
+			# We need a Cost Center corresponding to the selected erpnext Company
 			self.default_cost_center = frappe.db.get_value("Company", self.company, "cost_center")
 			company_warehouses = frappe.get_all(
 				"Warehouse", filters={"company": self.company, "is_group": 0}
@@ -75,7 +75,7 @@ class QuickBooksMigrator(Document):
 			# Their GL entries need to be generated from GeneralLedger Report.
 			self._fetch_general_ledger()
 
-			# QuickBooks data can have transactions that do not fall in existing fiscal years in ShoperPrime HO
+			# QuickBooks data can have transactions that do not fall in existing fiscal years in ERPNext
 			self._create_fiscal_years()
 
 			self._allow_fraction_in_unit()
@@ -420,7 +420,7 @@ class QuickBooksMigrator(Document):
 			"Income": "Income",
 			"Other Income": "Income",
 		}
-		# Map Quickbooks Account Types to ShoperPrime HO root_accunts and and root_type
+		# Map Quickbooks Account Types to ERPNext root_accunts and and root_type
 		try:
 			if not frappe.db.exists(
 				{"doctype": "Account", "quickbooks_id": account["Id"], "company": self.company}
