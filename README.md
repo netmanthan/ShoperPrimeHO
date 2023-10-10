@@ -2,13 +2,13 @@
     <a href="https://shopersolutions.com">
         <img src="https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/public/images/erpnext-logo.png" height="128">
     </a>
-    <h2>ERPNext</h2>
+    <h2>ShoperPrime HO</h2>
     <p align="center">
         <p>ERP made simple</p>
     </p>
 
 [![CI](https://github.com/netmanthan/ShoperPrimeHOHO/actions/workflows/server-tests.yml/badge.svg?branch=develop)](https://github.com/netmanthan/ShoperPrimeHO/actions/workflows/server-tests.yml)
-[![UI](https://github.com/erpnext/erpnext_ui_tests/actions/workflows/ui-tests.yml/badge.svg?branch=develop&event=schedule)](https://github.com/erpnext/erpnext_ui_tests/actions/workflows/ui-tests.yml)
+[![UI](https://github.com/ShoperPrimeHO/erpnext_ui_tests/actions/workflows/ui-tests.yml/badge.svg?branch=develop&event=schedule)](https://github.com/ShoperPrimeHO/erpnext_ui_tests/actions/workflows/ui-tests.yml)
 [![Open Source Helpers](https://www.codetriage.com/frappe/erpnext/badges/users.svg)](https://www.codetriage.com/frappe/erpnext)
 [![codecov](https://codecov.io/gh/frappe/erpnext/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/erpnext)
 [![docker pulls](https://img.shields.io/docker/pulls/frappe/erpnext-worker.svg)](https://hub.docker.com/r/frappe/erpnext-worker)
@@ -34,12 +34,12 @@ ERPNext as a monolith includes the following areas for managing businesses:
 1. [Customize ERPNext](https://shopersolutions.com/docs/user/manual/en/customize-erpnext)
 1. [And More](https://shopersolutions.com/docs/user/manual/en/)
 
-ERPNext is built on the [NETMANTHAN](https://github.com/netmanthan/ShoperPrimeHO), a full-stack web app framework built with Python & JavaScript.
+ShoperPrimeHO is built on the [NETMANTHAN](https://github.com/netmanthan/ShoperPrimeHO), a full-stack web app framework built with Python & JavaScript.
 
 ## Installation
 
 <div align="center" style="max-height: 40px;">
-    <a href="https://frappecloud.com/erpnext/signup">
+    <a href="https://shopersolutions.com/shoperprimeho/signup">
         <img src=".github/try-on-f-cloud-button.svg" height="40">
     </a>
     <a href="https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/frappe/frappe_docker/main/pwd.yml">
@@ -62,10 +62,10 @@ New passwords will be created for the ERPNext "Administrator" user, the MariaDB 
 
 ## Learning and community
 
-1. [Frappe School](https://frappe.school) - Learn NETMANTHAN and ERPNext from the various courses by the maintainers or from the community.
+1. [shopersolutions.com](https://shopersolutions.com) - Learn NETMANTHAN and ERPNext from the various courses by the maintainers or from the community.
 2. [Official documentation](https://docs.shopersolutions.com/) - Extensive documentation for ERPNext.
 3. [Discussion Forum](https://discuss.shopersolutions.com/) - Engage with community of ERPNext users and service providers.
-4. [Telegram Group](https://t.me/erpnexthelp) - Get instant help from huge community of users.
+4. [Telegram Group](https://t.me/shopersolutions) - Get instant help from huge community of users.
 
 
 ## Contributing

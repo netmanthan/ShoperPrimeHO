@@ -98,7 +98,7 @@
    "description": "Your Company set in ERPNext",
    "fieldname": "erpnext_company",
    "fieldtype": "Data",
-   "label": "ERPNext Company",
+   "label": "ShoperPrime Head Office",
    "read_only_depends_on": "eval:doc.is_master_data_processed==1"
   },
   {
