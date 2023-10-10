@@ -1,4 +1,4 @@
-## ERPNext includes these public works
+## ShoperPrime HO includes these public works
 
 For NETMANTHAN, please see attributions.md at https://github.com/netmanthan/ShoperPrimeHO/
 

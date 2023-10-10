@@ -17,7 +17,7 @@
 
 </div>
 
-ERPNext as a monolith includes the following areas for managing businesses:
+ShoperPrime HO as a monolith includes the following areas for managing businesses:
 
 1. [Accounting](https://shopersolutions.com/open-source-accounting)
 1. [Warehouse Management](https://shopersolutions.com/distribution/warehouse-management-system)
@@ -31,7 +31,7 @@ ERPNext as a monolith includes the following areas for managing businesses:
 1. [Quality Management](https://shopersolutions.com/docs/user/manual/en/quality-management)
 1. [Manufacturing](https://shopersolutions.com/open-source-manufacturing-erp-software)
 1. [Website Management](https://shopersolutions.com/open-source-website-builder-software)
-1. [Customize ERPNext](https://shopersolutions.com/docs/user/manual/en/customize-erpnext)
+1. [Customize ShoperPrime HO](https://shopersolutions.com/docs/user/manual/en/customize-erpnext)
 1. [And More](https://shopersolutions.com/docs/user/manual/en/)
 
 ShoperPrimeHO is built on the [NETMANTHAN](https://github.com/netmanthan/ShoperPrimeHO), a full-stack web app framework built with Python & JavaScript.
@@ -51,20 +51,20 @@ ShoperPrimeHO is built on the [NETMANTHAN](https://github.com/netmanthan/ShoperP
 
 ### Containerized Installation
 
-Use docker to deploy ERPNext in production or for development of [Frappe](https://github.com/netmanthan/ShoperPrimeHO) apps. See https://github.com/netmanthan/ShoperPrimeHO_docker for more details.
+Use docker to deploy ShoperPrime HO in production or for development of [Frappe](https://github.com/netmanthan/ShoperPrimeHO) apps. See https://github.com/netmanthan/ShoperPrimeHO_docker for more details.
 
 ### Manual Install
 
 The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
 
-New passwords will be created for the ERPNext "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
+New passwords will be created for the ShoperPrime HO "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
 
 
 ## Learning and community
 
-1. [shopersolutions.com](https://shopersolutions.com) - Learn NETMANTHAN and ERPNext from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.shopersolutions.com/) - Extensive documentation for ERPNext.
-3. [Discussion Forum](https://discuss.shopersolutions.com/) - Engage with community of ERPNext users and service providers.
+1. [shopersolutions.com](https://shopersolutions.com) - Learn NETMANTHAN and ShoperPrime HO from the various courses by the maintainers or from the community.
+2. [Official documentation](https://docs.shopersolutions.com/) - Extensive documentation for ShoperPrime HO.
+3. [Discussion Forum](https://discuss.shopersolutions.com/) - Engage with community of ShoperPrime HO users and service providers.
 4. [Telegram Group](https://t.me/shopersolutions) - Get instant help from huge community of users.
 
 
@@ -80,9 +80,9 @@ New passwords will be created for the ERPNext "Administrator" user, the MariaDB 
 
 GNU/General Public License (see [license.txt](license.txt))
 
-The ERPNext code is licensed as GNU General Public License (v3) and the Documentation is licensed as Creative Commons (CC-BY-SA-3.0) and the copyright is owned by Frappe Technologies Pvt Ltd (Frappe) and Contributors.
+The ShoperPrime HO code is licensed as GNU General Public License (v3) and the Documentation is licensed as Creative Commons (CC-BY-SA-3.0) and the copyright is owned by Frappe Technologies Pvt Ltd (Frappe) and Contributors.
 
-By contributing to ERPNext, you agree that your contributions will be licensed under its GNU General Public License (v3).
+By contributing to ShoperPrime HO, you agree that your contributions will be licensed under its GNU General Public License (v3).
 
 ## Logo and Trademark Policy
 

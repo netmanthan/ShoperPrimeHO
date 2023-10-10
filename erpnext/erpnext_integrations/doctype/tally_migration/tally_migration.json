@@ -95,7 +95,7 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "Your Company set in ERPNext",
+   "description": "Your Company set in ShoperPrime HO",
    "fieldname": "erpnext_company",
    "fieldtype": "Data",
    "label": "ShoperPrime Head Office",
@@ -256,7 +256,7 @@
  "links": [],
  "modified": "2020-04-28 00:29:18.039826",
  "modified_by": "Administrator",
- "module": "ERPNext Integrations",
+ "module": "ShoperPrime HO Integrations",
  "name": "Tally Migration",
  "owner": "Administrator",
  "permissions": [

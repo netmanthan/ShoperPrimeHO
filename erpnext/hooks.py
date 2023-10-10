@@ -1,7 +1,7 @@
 from frappe import _
 
 app_name = "erpnext"
-app_title = "ERPNext"
+app_title = "ShoperPrime HO"
 app_publisher = "NETMANTHAN."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
@@ -472,7 +472,7 @@ default_mail_footer = """
 	<span>
 		Sent via
 		<a class="text-muted" href="https://shopersolutions.com?source=via_email_footer" target="_blank">
-			ERPNext
+			ShoperPrime HO
 		</a>
 	</span>
 """
@@ -583,7 +583,7 @@ user_privacy_documents = [
 	},
 ]
 
-# ERPNext doctypes for Global Search
+# ShoperPrime HO doctypes for Global Search
 global_search_doctypes = {
 	"Default": [
 		{"doctype": "Customer", "index": 0},

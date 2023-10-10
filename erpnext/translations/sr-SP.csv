@@ -170,7 +170,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +534,Wareho
 apps/erpnext/erpnext/accounts/doctype/payment_request/payment_request.py +220,Payment Entry already exists,Uplata već postoji
 DocType: Project,Customer Details,Korisnički detalji
 DocType: Item,"Example: ABCD.#####
-If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","Primjer:. ABCD ##### 
+If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","Primjer:. ABCD #####
  Ако Радња је смештена i serijski broj se ne pominje u transakcijama, onda će automatski serijski broj biti kreiran na osnovu ove serije. Ukoliko uvijek želite da eksplicitno spomenete serijski broj ove šifre, onda je ostavite praznu."
 apps/erpnext/erpnext/config/selling.py +322,Customer and Supplier,Kupac i dobavljač
 DocType: Project,% Completed,% završen
@@ -355,7 +355,7 @@ Item Group,Vrste artikala,
 Age (Days),Starost (Dani)
 Opening (Dr),Početno stanje (Du)
 Total Outstanding Amt,Preostalo za plaćanje,
-Go to the Desktop and start using ERPNext,Idite na radnu površinu i krenite sa radom u programu,
+Go to the Desktop and start using ShoperPrime HO,Idite na radnu površinu i krenite sa radom u programu,
 You can only have Plans with the same billing cycle in a Subscription,Сви Планови у Претплати морају имати исти циклус наплате
 Name and Employee ID,Ime i ID Zaposlenog,
 Invoice,Faktura,

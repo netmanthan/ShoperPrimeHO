@@ -12,7 +12,7 @@ Assets
 Portal
 Maintenance
 Regional
-ERPNext Integrations
+ShoperPrime HO Integrations
 Quality Management
 Communication
 Loan Management
