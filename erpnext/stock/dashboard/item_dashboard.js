@@ -184,7 +184,7 @@ erpnext.stock.ItemDashboard = class ItemDashboard {
 		if (!data) data = [];
 
 		data.forEach(function (d) {
-			d.color = d.percent_occupied >= 80 ? "#f8814f" : "#2490ef";
+			d.color = d.percent_occupied >= 80 ? "#f8814f" : "#008b8b";
 		});
 
 		let can_write = 0;
