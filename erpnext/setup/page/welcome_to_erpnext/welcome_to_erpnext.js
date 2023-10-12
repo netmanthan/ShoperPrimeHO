@@ -1,5 +1,5 @@
-frappe.pages['welcome-to-erpnext'].on_page_load = function(wrapper) {
-	var parent = $('<div class="welcome-to-erpnext"></div>').appendTo(wrapper);
+frappe.pages['welcome-to-shoperprime'].on_page_load = function(wrapper) {
+	var parent = $('<div class="welcome-to-shoperprime"></div>').appendTo(wrapper);
 
 	parent.html(frappe.render_template("welcome_to_erpnext", {}));
 
