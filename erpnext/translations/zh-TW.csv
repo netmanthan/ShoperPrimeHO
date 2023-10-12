@@ -4229,7 +4229,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +376,Balan
 DocType: Loyalty Point Entry,Redeem Against,兌換
 apps/erpnext/erpnext/config/accounts.py +130,Banking and Payments,銀行和支付
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,請輸入API使用者密鑰
-,Welcome to ERPNext,歡迎來到ERPNext
+,Welcome to ShoperPrime,歡迎來到ERPNext
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,主導報價
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,電子郵件提醒將通過電子郵件聯繫方式發送給各方
 DocType: Project,Twice Daily,每天兩次

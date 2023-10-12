@@ -6,12 +6,12 @@
  "modified": "2015-10-28 16:27:02.197707", 
  "modified_by": "Administrator", 
  "module": "Setup", 
- "name": "welcome-to-erpnext", 
+ "name": "welcome-to-ShoperPrime",
  "owner": "Administrator", 
  "page_name": "welcome-to-erpnext", 
  "roles": [], 
  "script": null, 
  "standard": "Yes", 
  "style": null, 
- "title": "Welcome to ERPNext"
+ "title": "Welcome to ShoperPrime"
 }
