@@ -626,7 +626,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1308,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,請先輸入公司名稱
 DocType: Travel Itinerary,Non-Vegetarian,非素食主義者
 DocType: Purchase Invoice,Supplier Name,供應商名稱
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,閱讀ERPNext手冊
+apps/erpnext/erpnext/setup/page/welcome_to_shoperprime/welcome_to_shoperprime.html +25,Read the ERPNext Manual,閱讀ERPNext手冊
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,在日曆中顯示所有部門成員的葉子
 DocType: Purchase Invoice,01-Sales Return,01-銷售退貨
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,暫時擱置
@@ -1421,7 +1421,7 @@ DocType: SMS Center,Total Message(s),訊息總和（s ）
 DocType: Share Balance,Purchased,購買
 DocType: Item Variant Settings,Rename Attribute Value in Item Attribute.,在項目屬性中重命名屬性值。
 DocType: Purchase Invoice,Additional Discount Percentage,額外折扣百分比
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +24,View a list of all the help videos,查看所有幫助影片名單
+apps/erpnext/erpnext/setup/page/welcome_to_shoperprime/welcome_to_shoperprime.html +24,View a list of all the help videos,查看所有幫助影片名單
 DocType: Agriculture Analysis Criteria,Soil Texture,土壤紋理
 DocType: Bank Reconciliation,Select account head of the bank where cheque was deposited.,選取支票存入該銀行帳戶的頭。
 DocType: Selling Settings,Allow user to edit Price List Rate in transactions,允許用戶編輯價目表率的交易
@@ -1518,7 +1518,7 @@ apps/erpnext/erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scoreca
 apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please select a field to edit from numpad,請選擇要從數字鍵盤編輯的字段
 apps/erpnext/erpnext/stock/doctype/item/item.py +293,Cannot be a fixed asset item as Stock Ledger is created.,不能成為股票分類賬創建的固定資產項目。
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,承認
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,轉到桌面和開始使用ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_shoperprime/welcome_to_shoperprime.html +23,Go to the Desktop and start using ERPNext,轉到桌面和開始使用ERPNext
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,支付剩餘
 DocType: Item,Manufacturer,生產廠家
 DocType: Landed Cost Item,Purchase Receipt Item,採購入庫項目
@@ -1777,7 +1777,7 @@ apps/erpnext/erpnext/buying/doctype/supplier_quotation/supplier_quotation.py +67
 DocType: Purchase Invoice,Rejected Warehouse,拒絕倉庫
 DocType: GL Entry,Against Voucher,對傳票
 DocType: Item Default,Default Buying Cost Center,預設採購成本中心
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",為得到最好的 ERPNext 教學，我們建議您花一些時間和觀看這些說明影片。
+apps/erpnext/erpnext/setup/page/welcome_to_shoperprime/welcome_to_shoperprime.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",為得到最好的 ERPNext 教學，我們建議您花一些時間和觀看這些說明影片。
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +1046,For Default Supplier (optional),對於默認供應商（可選）
 DocType: Supplier Quotation Item,Lead Time in days,交貨天期
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +83,Accounts Payable Summary,應付帳款摘要
@@ -4433,7 +4433,7 @@ DocType: Amazon MWS Settings,MWS Credentials,MWS憑證
 apps/erpnext/erpnext/config/hr.py +7,Employee and Attendance,員工考勤
 apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +123,Purpose must be one of {0},目的必須是一個{0}
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.js +99,Fill the form and save it,填寫表格，並將其保存
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +26,Community Forum,社區論壇
+apps/erpnext/erpnext/setup/page/welcome_to_shoperprime/welcome_to_shoperprime.html +26,Community Forum,社區論壇
 apps/erpnext/erpnext/stock/page/stock_balance/stock_balance.js +52,Actual qty in stock,實際庫存數量
 apps/erpnext/erpnext/stock/page/stock_balance/stock_balance.js +52,Actual qty in stock,實際庫存數量
 DocType: Homepage,"URL for ""All Products""",網址“所有產品”

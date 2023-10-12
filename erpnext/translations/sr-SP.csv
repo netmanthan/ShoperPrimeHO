@@ -184,7 +184,7 @@ DocType: Sales Order,Track this Sales Order against any Project,Prati ovaj proda
 DocType: Quotation Item,Stock Balance,Pregled trenutne zalihe
 apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.js +530,[Error],[Greška]
 DocType: Supplier,Supplier Details,Detalji o dobavljaču
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +26,Community Forum,Forum zajednice
+apps/erpnext/erpnext/setup/page/welcome_to_shoperprime/welcome_to_shoperprime.html +26,Community Forum,Forum zajednice
 ,Batch Item Expiry Status,Pregled artikala sa rokom trajanja
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +887,Payment,Plaćanje
 ,Sales Partners Commission,Provizija za prodajne partnere
